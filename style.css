@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #111111;
+    font-family: "Inter", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+    display: flex;
+    gap: 30rem;
+    justify-content:center ;
+    align-items: center;
+    margin-top: 1rem;
+    background-color: #1B1B1B;
+    width:83% ;
+    margin-left: 9rem;
+    height: 10vh;
+    border-radius: 20px;
+}
+.words{
+    display: flex;
+    gap: 3rem;
+}
+.all{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 3rem;
+}
+.imy{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 4px solid yellowgreen;
+    object-fit: cover;
+
+}
+.pro{
+    height: 75vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B1B1B;
+    border-radius: 20px;
+}
+h2{
+    font-size: 2.50rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.bahat{
+    font-size: 10px;
+}
+.btn{
+    color: black;
+    background-color: yellowgreen;
+    border-radius: 30px;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    border: none;
+    font-size: 1.20rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.pro p{
+    color: rgb(77, 76, 76);
+}
+.val{
+    text-decoration: none;
+    color: gray;
+}
+.mas{
+    background-color: #1B1B1B;
+    width: 15%;
+    border-radius: 10px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+.icons{
+    display: flex;
+    gap: 3.50rem;
+    margin-left: 9rem;
+    margin-top: 3.50rem;
+}
+.dex{
+    font-size: 1.50rem;
+    
+}
+.exr{
+    color: #F4C194;
+    background-color: black;
+    padding: .50rem;
+    border-radius: 5px;
+}
+.notes{
+    margin-top: 5rem;
+    margin-left: 9rem;
+}
+.blue{
+    color: blue;
+    margin-bottom: .50rem;
+}
+.grey{
+    color: gray;
+    font-weight: bold;
+    font-size: 3.50rem;
+}
+h1{
+    color: white;
+    font-weight: bold;
+    font-size: 3.50rem;
+}
+.one{
+    width: 30%;
+    text-align: center;
+    color: white;
+    background-color: #1B1B1B;
+    padding: 5rem;
+    border-radius: 10px;
+}
+.bruu{
+    width:70px ;
+    height:70px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-bottom: 3rem;
+    clip-path: circle(50% at 50% 50%);
+    align-items: center;
+}
+.imys{
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 4rem;
+    gap: 2rem;
+}
+.projects{
+    margin-top: 6rem;
+    text-align: center;
+}
+.projects h2{
+    color: gray;
+    font-size: 3rem;
+}
+span{
+    color: white;
+}
+.projects p{
+    color: blue;
+}
+.first{
+    width:70% ;
+    margin: 0 auto;
+    margin-top: 4rem;
+    border-radius: 20px;
+    background-color: #1B1B1B;
+    
+
+}
+.me{
+    background-color: black;
+    padding: .50rem;
+    border-radius: 10px;
+    margin-top: 3rem;
+}
+.flower{
+    display: flex;
+    gap: 3rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.neer{
+    width: 95%;
+    margin-top: 1rem;
+    
+}
+.bee{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    height: 60vh;
+}
+.at{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    color: white;
+    font-size: 2rem;
+    background-attachment: fixed;
+}
+.kel{
+    border: 1px solid pink;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+.pass{
+    text-align: center;
+    color: white;
+    margin-top: 8rem;
+    font-weight: bold;
+}
+.wed{
+    color: gray;
+}
+.cas{
+    color: blue;
+}
+.a{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+/* .pro{
+   height: 30vh;
+   width: 10vw;
+   background-color: #1B1B1B;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius:30px ;
+   padding: 1rem;
+} */
+.milldle{
+    width: 50%;
+    background-color: #1B1B1B;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin-left: 4rem;
+}
+.quality{
+    display: flex;
+    margin-left: 9em;
+    gap: 3rem;
+    height: 60vh;
+    margin-top: 10rem;
+}
+.line{
+    width: 80%;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+.give{
+    color: #7E43FB;
+    font-size: small;
+
+
+}
+.buu{
+    color: #7E43FB;
+    font-size: 5rem;
+    margin-top: 2rem;
+}
+.sed{
+    margin-top: 3rem;
+}
+.btn2{
+    color: black;
+    background-color: yellowgreen;
+    border-radius: 30px;
+    padding: 1rem 2rem;
+    margin-top: 5rem;
+    border: none;
+    font-size: 1.20rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.der{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.exr2{
+    color: #F4C194;
+    background-color: black;
+    margin-top: 10rem;
+    width: 15%;
+    font-size: larger;
+    margin-bottom: 1rem;
+    padding: .10rem;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bad{
+    margin-left: 9rem;
+}
+.free{
+    color: gray;
+}
+.pic{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.fact1{
+    width: 7%;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    
+}
+.vas{
+    color: black;
+    
+}
+.fact{
+    width: 7.10%;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: black;
+}
+.fill{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 3rem;
+    left: 16rem;
+    
+}
+.teer{
+    position: relative;
+    margin-top: 5rem;
+}
+.flu{
+    text-align: center;
+    margin-top: 4rem;
+    font-weight: bolder;
+    font-size: 4rem;
+}
+.gab{
+    display: flex;
+    margin-left: 9rem;
+    gap: 4rem;
+    background-color: #1B1B1B;
+    border-radius: 30px;
+    width: 80%;
+    height: 50vh;
+    padding-left: 3rem;
+    padding-top: 2.20rem;
+}
+.hui{
+    margin-bottom: 1rem;
+    background-color: black;
+    width: 15%;
+    padding: .50rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+.ged{
+    color: blue;
+}
+.fek{
+    display: flex;
+    margin-top: 3rem;
+    align-items: straight line;
+    font-size: 20px;
+}
+.vally{
+    margin-top: 2rem;
+    color: gray;
+}
+.curve{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+.faq{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 9rem;
+    width: 5%;
+    margin: 0 auto;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7E43FB;
+    margin-top: 7rem;
+    border-top: 1px solid rgb(75, 74, 74);
+    border-radius: 10px;
+    
+}
+.ugly{
+    font-size: 20rem;
+    margin-top: 2.50rem;
+    margin-left: 9rem;
+    display: flex;
+    justify-content: center;
+    letter-spacing: .50rem;
+}
+.ask{
+    color: gray;
+}
+.btn3{
+    display: flex;
+    color: white;
+    background-color: #1B1B1B;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    justify-content: space-between;
+    padding: 1.50rem;
+    border-radius: 10px;
+    margin-left: 30rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+.frig{
+    background-color: #1B1B1B;
+    border: none;
+    color: white;
+    font-size: 2rem;
+}
+.tiar{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.hill{
+    background-color: #1B1B1B;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 30vh;
+    border-radius: 10px;
+}
+.talk{
+    background-color: #1B1B1B;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+}
+.talk2 {
+    text-align: center;
+}
+.level{
+    margin-left:9rem;
+    display: flex;
+    gap: 2rem;
+    margin-top: 10rem;
+    margin-bottom: 2rem; 
+}
+.gally{
+    display: flex;
+    background-color: #111111;
+    gap: 2rem;
+    width: 100%;
+
+
+
+}
+.rex{
+    display: flex;
+    flex-direction: column;
+    width: 40%; 
+}
+.bact{
+width:30% ;
+display: flex;
+justify-content: center;
+}
+.frik{
+ width: 150px;
+ height: 150px;
+ border-radius: 50%;
+ object-fit: cover;
+ border: 4px solid black;
+ position: absolute;
+ top: 4rem;
+ left: 22rem;
+}
+.pik{
+    background-color: #1B1B1B;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    height: 10vh;
+    color: gray;
+    font-size: 3rem;
+    align-items: center;
+    border-radius: 10px;
+    padding: 1rem;
+
+}
+.cov{
+    text-align: center;
+    font-weight: bold;
+}
+.extra{
+    font-size: 1.50rem;
+    margin-bottom: 1rem;
+}
+.dred{
+    position: relative; 
+    border: 1px solid #111111;
+}
+
+   
