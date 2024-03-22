@@ -534,10 +534,14 @@ justify-content: center;
 .extra{
     font-size: 1.50rem;
     margin-bottom: 1rem;
+    color: gray;
+    letter-spacing: 2px;
 }
 .dred{
     position: relative; 
     border: 1px solid #111111;
 }
 
+
    
+
